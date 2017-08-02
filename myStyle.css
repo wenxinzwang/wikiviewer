@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+}
+
+.top {
+	max-width: 600px;
+	margin: auto;	
+	margin: 20% auto auto;
+	text-align: text-align;
+	font-weight: bold;
+	font-size: larger;
+	position: relative;
+}
+
+h1{
+	margin-bottom: 0px;
+}
+
+h2 {
+	margin-bottom: 5px;
+	font-weight: normal;
+	font-size: smaller;
+}
+
+p {
+	margin-top: 0;
+}
+
+#searchForm {
+}
+
+input, button {
+	padding: 5px;
+}
+
+input{
+	width: 600px;
+	max-width: 100%;
+	min-width: 100px;
+	border: 1px solid black;
+}
+
+button{
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 10px;
+}
+button:hover{
+	opacity: 0.8;
+}
+
+#random{
+	float: right;
+}
+
+#results {
+	max-width: 900px;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 100px;
+  font-size: smaller;
+  color: grey;
+}
+
+footer a:hover {
+	text-decoration: none;
+}
+
+footer a:active, footer a:visited {
+	color: grey;
+}
