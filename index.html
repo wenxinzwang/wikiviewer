@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <title>WikiViewer</title>    
     <link rel="stylesheet" href="myStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="myJQscript.js"></script>
 </head>
 
 <body>
     <div class="top clearfix">
         <h1>Wiki Viewer</h1>
-		<div id="searchForm">
-		<input type="text" id="searchInput" value="" placeholder="wikipedia search..." autofocus>
-        <button id="search">Search</button>
-        <button id="clear">Clear</button>
-        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
-		    <button id="random" class="clearfix">Random Article</button>
-		</a>
+        <div id="searchForm">
+	    <input type="text" id="searchInput" value="" placeholder="wikipedia search..." autofocus>
+            <button id="search">Search</button>
+            <button id="clear">Clear</button>
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+		 <button id="random" class="clearfix">Random Article</button>
+	    </a>
         </div>		
     </div>	
     <div id="results"></div>
